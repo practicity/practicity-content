@@ -1,0 +1,65 @@
+{% comment %}
+  Build a combined list of all items with tags
+{% endcomment %}
+{% assign all_items = site.posts | concat: site.simsoftware %}
+
+{% comment %}
+  Collect all unique tags from the combined list
+{% endcomment %}
+{% assign all_tags = "" | split: "" %}
+{% for item in all_items %}
+  {% for tag in item.tags %}
+    {% unless all_tags contains tag %}
+      {% assign all_tags = all_tags | push: tag %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+{% assign all_tags = all_tags | sort %}
+
+{% comment %}
+  Tag Cloud Navigation
+{% endcomment %}
+<div class="tag-cloud">
+  {% for tag in all_tags %}
+    {% assign count = 0 %}
+    {% for item in all_items %}
+      {% if item.tags contains tag %}
+        {% assign count = count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    <a href="#{{ tag | slugify }}" class="tag-pill">
+      #{{ tag }} <span class="tag-count">{{ count }}</span>
+    </a>
+  {% endfor %}
+</div>
+
+<hr>
+
+{% comment %}
+  List items grouped by tag
+{% endcomment %}
+{% for tag in all_tags %}
+  <h2 class="tag-section" id="{{ tag | slugify }}"># {{ tag }}</h2>
+
+  {% for item in all_items %}
+    {% if item.tags contains tag %}
+
+      {% if item.collection == "simsoftware" %}
+        {% assign item_type = "simsoftware" %}
+        {% assign type_label = "🎮 SimSoftware" %}
+      {% else %}
+        {% assign item_type = "post" %}
+        {% assign type_label = "📝 Post" %}
+      {% endif %}
+
+      <div class="item-card">
+        <div>
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          <small>{{ item.description | truncate: 120 }}</small>
+        </div>
+        <span class="item-type type-{{ item_type }}">{{ type_label }}</span>
+      </div>
+
+    {% endif %}
+  {% endfor %}
+{% endfor %}

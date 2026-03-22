@@ -5,7 +5,7 @@ permalink: /simsoftware/
 ---
 
 <div class="items-list">
-  {% for item in site.items %}
+  {% for item in site.simsoftware %}
     <article class="item" style="margin-bottom: 20px; border-bottom: 1px solid #eee;">
       <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
       <p>{{ item.description }}</p> 

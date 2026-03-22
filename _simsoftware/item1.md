@@ -17,8 +17,7 @@ last_survey: "March 15, 2024"
 
 ### 📊 Quick Facts
 
-| Property | Details |
-|:--- |:--- |
+|:---- |:--- |
 | **Type** | {{ page.type }} |
 | **Category** | {{ page.category }} |
 | **Complexity** | <span style="color: #f1c40f;">{{ page.complexity }}</span> |

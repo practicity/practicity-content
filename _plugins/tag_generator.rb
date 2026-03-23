@@ -32,6 +32,3 @@ module Jekyll
     end
   end
 end
-
-
-Jekyll::Utils.slugify(tag, mode: 'latin')

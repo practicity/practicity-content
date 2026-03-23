@@ -3,8 +3,11 @@ module Jekyll
     safe true
 
     def generate(site)
-      # Collect tags from posts AND simsoftware collection
-      all_items = site.posts.docs + (site.collections['simsoftware']&.docs || [])
+      all_items = site.posts.docs.dup
+      site.collections.each do |name, collection|
+        next if name == 'posts'
+        all_items += collection.docs
+      end
 
       tags = all_items.flat_map { |item| item.data['tags'] || [] }.uniq
 
@@ -22,9 +25,13 @@ module Jekyll
       @name = 'index.html'
 
       self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag.html')
-      self.data['tag']   = tag
-      self.data['title'] = "Tag: #{tag}"
+      self.data                  = {}
+      self.data['layout'] = 'tag'
+      self.data['tag']    = tag
+      self.data['title']  = "Tag: #{tag}"
     end
   end
 end
+
+
+Jekyll::Utils.slugify(tag, mode: 'latin')

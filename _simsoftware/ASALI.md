@@ -1,0 +1,17 @@
+---
+layout: simsoftware
+title: "ASALI"
+description: "ASALI is an open-source tool for the modeling of chemical reactors and the calculation of thermodynamic and transport properties of gas mixtures. It provides a user-friendly Graphical User Interface (GUI) to set up and solve complex catalytic and gas-phase reactor models without needing to write code."
+type: "Simulation Software"
+category: "Chemical Engineering"
+complexity: "★★★☆☆"
+activity: "★★★☆☆"
+tags: [Simulation, Chemical Reactors, Thermodynamics, Transport Properties, GUI, C++]
+website: "https://srebughini.github.io/ASALI/"
+github: "https://github.com/srebughini/ASALI"
+license: "GPL 3.0"
+last_survey: "March 24, 2026"
+screenshot1: "https://srebughini.github.io/ASALI/assets/images/ASALI_GUI.png"
+screenshot2: ""
+screenshot3: ""
+---

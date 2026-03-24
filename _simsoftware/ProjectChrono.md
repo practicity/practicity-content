@@ -1,0 +1,17 @@
+---
+layout: simsoftware
+title: "Project Chrono"
+description: "Project Chrono is a physics-based modelling and simulation infrastructure based on a platform-independent, open-source design. It excels in simulating very large multi-body systems, robotics, vehicle dynamics, fluid-solid interaction, and granular materials."
+type: "Simulation Software"
+category: "Multi-Physics / Dynamics"
+complexity: "★★★★★"
+activity: "★★★★★"
+tags: [Simulation, Multi-body Dynamics, Robotics, Vehicles, FSI, C++, Python]
+website: "https://projectchrono.org/"
+github: "https://github.com/projectchrono/chrono"
+license: "BSD 3-Clause"
+last_survey: "March 24, 2026"
+screenshot1: "https://projectchrono.org/assets/images/chrono_logo.png"
+screenshot2: ""
+screenshot3: ""
+---

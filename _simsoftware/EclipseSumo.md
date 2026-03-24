@@ -1,0 +1,17 @@
+---
+layout: simsoftware
+title: "Eclipse SUMO"
+description: "SUMO (Simulation of Urban MObility) is a highly portable, microscopic, and continuous traffic simulation package designed to handle large road networks. It is widely used by researchers to simulate public transit, pedestrians, traffic lights, and autonomous vehicle interactions."
+type: "Simulation Software"
+category: "Traffic / Urban Mobility"
+complexity: "★★★★★"
+activity: "★★★★★"
+tags: [Simulation, Traffic, Urban Mobility, Routing, Public Transit, C++]
+website: "https://eclipse.dev/sumo/"
+github: "https://github.com/eclipse-sumo/sumo"
+license: "Eclipse Public License 2.0"
+last_survey: "March 24, 2026"
+screenshot1: "https://eclipse.dev/sumo/images/sumo_screenshot.png"
+screenshot2: ""
+screenshot3: ""
+---

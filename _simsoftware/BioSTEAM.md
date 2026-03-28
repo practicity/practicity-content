@@ -11,7 +11,7 @@ website: "https://biosteam.readthedocs.io/"
 github: "https://github.com/BioSTEAMDevelopmentGroup/biosteam"
 license: "UIUC Open Source"
 last_survey: "March 24, 2026"
-screenshot1: "https://biosteam.readthedocs.io/en/latest/_images/BioSTEAM_flowsheet.png"
+screenshot1: "https://scyjth.github.io/biosteam_lca/_images/TOC_V2.png"
 screenshot2: ""
 screenshot3: ""
 ---

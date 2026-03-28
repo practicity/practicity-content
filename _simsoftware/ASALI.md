@@ -11,7 +11,7 @@ website: "https://srebughini.github.io/ASALI/"
 github: "https://github.com/srebughini/ASALI"
 license: "GPL 3.0"
 last_survey: "March 24, 2026"
-screenshot1: "https://srebughini.github.io/ASALI/assets/images/ASALI_GUI.png"
+screenshot1: "https://github.com/srebughini/ASALI/raw/master/GUI/src/resources/images/BigLogo.png"
 screenshot2: ""
 screenshot3: ""
 ---

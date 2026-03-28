@@ -11,7 +11,7 @@ website: "https://filipecaixeta.github.io/cncwebsim/"
 github: "https://github.com/filipecaixeta/cncwebsim"
 license: "MIT"
 last_survey: "March 24, 2026"
-screenshot1: ""
+screenshot1: "https://www.wittystore.com/image/data/software_imgs/cnc-simulator/free-cnc-simulator-online.JPG"
 screenshot2: ""
 screenshot3: ""
 ---

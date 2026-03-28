@@ -11,7 +11,7 @@ website: "https://www.bridgecommand.co.uk/"
 github: "https://github.com/bridgecommand/bc"
 license: "GPL 2.0"
 last_survey: "March 24, 2026"
-screenshot1: "https://www.bridgecommand.co.uk/images/BC_screenshot.jpg"
+screenshot1: "https://www.bridgecommand.co.uk/data/_uploaded/image/ASD%20Tug.png"
 screenshot2: ""
 screenshot3: ""
 ---

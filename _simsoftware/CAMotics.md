@@ -11,7 +11,7 @@ website: "https://camotics.org/"
 github: "https://github.com/CauldronDevelopmentLLC/CAMotics"
 license: "GPL 2.0"
 last_survey: "March 24, 2026"
-screenshot1: "https://camotics.org/images/CAMotics-Screenshot.png"
+screenshot1: "https://user-images.githubusercontent.com/29616141/72183362-dc5ccb00-33fe-11ea-9728-899e40a2c7c9.jpg"
 screenshot2: ""
 screenshot3: ""
 ---

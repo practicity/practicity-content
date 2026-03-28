@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_simsoftware
 title: Sim Software (open source)
 permalink: /simsoftware/
 ---

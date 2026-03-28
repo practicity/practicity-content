@@ -11,7 +11,7 @@ website: "https://cupcarbon.com/"
 github: "https://github.com/ahmedkammarti/cupcarbon"
 license: "GPL 3"
 last_survey: "March 24, 2026"
-screenshot1: "https://cupcarbon.com/images/screenshot.png"
+screenshot1: "https://avatars.githubusercontent.com/u/5851235?v=4"
 screenshot2: ""
 screenshot3: ""
 ---

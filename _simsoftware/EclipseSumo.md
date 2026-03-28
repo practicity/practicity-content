@@ -11,7 +11,7 @@ website: "https://eclipse.dev/sumo/"
 github: "https://github.com/eclipse-sumo/sumo"
 license: "Eclipse Public License 2.0"
 last_survey: "March 24, 2026"
-screenshot1: "https://eclipse.dev/sumo/images/sumo_screenshot.png"
+screenshot1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ_s1GnyqoYgAuKNNO-cYYRJy4A1fMwTJ57w&s"
 screenshot2: ""
 screenshot3: ""
 ---

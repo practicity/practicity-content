@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Chemical Engineering"
 complexity: "★★★☆☆"
 activity: "★★★☆☆"
-tags: [Simulation, Chemical Reactors, Thermodynamics, Transport Properties, GUI, Cpp]
+tags: [Simulation, Chemistry, Thermodynamics, Cpp]
 website: "https://srebughini.github.io/ASALI/"
 github: "https://github.com/srebughini/ASALI"
 license: "GPL 3.0"

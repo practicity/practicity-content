@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Reservoir / Geoscience"
 complexity: "★★★★★"
 activity: "★★★★☆"
-tags: [Simulation, Porous Media, Reservoir Engineering, CO2 Storage, CFD, Cpp]
+tags: [Simulation, Porous Media, Reservoir, Chemistry, Fluids Dynamics, Cpp]
 website: "https://opm-project.org/"
 github: "https://github.com/OPM"
 license: "GPL 3.0"

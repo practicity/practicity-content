@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "CNC / Manufacturing"
 complexity: "★★★☆☆"
 activity: "★★★☆☆"
-tags: [Simulation, CNC, G-code, Machining, TinyG, Web, JavaScript]
+tags: [Simulation, CNC, G-code, Milling, JavaScript]
 website: "http://chilipeppr.com/"
 github: "https://github.com/chilipeppr"
 license: "MIT"

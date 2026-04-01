@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Co-simulation"
 complexity: "★★★★★"
 activity: "★★★★★"
-tags: [Simulation, Co-simulation, HPC, Infrastructure, Power Systems, Cpp, Python]
+tags: [Simulation, Co-simulation, HPC, Energy, Cpp, Python]
 website: "https://helics.org/"
 github: "https://github.com/GMLC-TDC/HELICS"
 license: "BSD 3-Clause"

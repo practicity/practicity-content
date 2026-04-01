@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Transport Simulation (Game)"
 complexity: "★★★☆☆"
 activity: "★★★★★"
-tags: [game, Transport, Logistics, Cpp]
+tags: [Game, Logistics, Cpp]
 website: "https://www.openttd.org/"
 github: "https://github.com/OpenTTD/OpenTTD"
 license: "GPL 2.0"

@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Renewable Energy / Policy"
 complexity: "★★★☆☆"
 activity: "★★☆☆☆"
-tags: [Simulation, Sustainability, Energy Transition, Renewable Energy, Policy]
+tags: [Simulation, Sustainability, Energy]
 website: "https://sen.asn.au/"
 license: "Open Source"
 last_survey: "March 24, 2026"

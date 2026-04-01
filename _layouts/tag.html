@@ -4,31 +4,69 @@ layout: default
 
 <h1>🏷️ {{ page.tag }}</h1>
 
-{% assign all_items = site.posts.docs %}
-{% for collection in site.collections %}
-  {% unless collection.label == 'posts' %}
-    {% assign all_items = all_items | concat: collection.docs %}
-  {% endunless %}
-{% endfor %}
 
-{% assign tagged_items = "" | split: "" %}
-{% for item in all_items %}
+{% assign tagged_posts = "" | split: "" %}
+{% for item in site.posts %}
   {% if item.tags contains page.tag %}
-    {% assign tagged_items = tagged_items | push: item %}
+    {% assign tagged_posts = tagged_posts | push: item %}
   {% endif %}
 {% endfor %}
 
-<p>{{ tagged_items.size }} item(s) tagged with <strong>#{{ page.tag }}</strong></p>
+{% assign tagged_articles = "" | split: "" %}
+{% for item in site.articles %}
+  {% if item.tags contains page.tag %}
+    {% assign tagged_articles = tagged_articles | push: item %}
+  {% endif %}
+{% endfor %}
 
-<ul>
-  {% for item in tagged_items %}
-    <li>
-      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-      <span style="font-size:0.8em; color:#666;">
-        — {{ item.collection }}
-        {% if item.date %} · {{ item.date | date: "%b %d, %Y" }}{% endif %}
-      </span>
-    </li>
-  {% endfor %}
-</ul>
+{% assign tagged_solutions = "" | split: "" %}
+{% for item in site.solutions %}
+  {% if item.tags contains page.tag %}
+    {% assign tagged_solutions = tagged_solutions | push: item %}
+  {% endif %}
+{% endfor %}
 
+{% assign total = tagged_posts.size | plus: tagged_articles.size | plus: tagged_solutions.size %}
+<p>{{ total }} item(s) tagged with <strong>#{{ page.tag }}</strong></p>
+
+{% if tagged_posts.size > 0 %}
+  <h2>📝 Posts <span style="font-size:0.8em; color:#666;">({{ tagged_posts.size }})</span></h2>
+  <ul>
+    {% for item in tagged_posts %}
+      <li>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% if item.date %}
+          <span style="font-size:0.8em; color:#666;">· {{ item.date | date: "%b %d, %Y" }}</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if tagged_articles.size > 0 %}
+  <h2>📰 Articles <span style="font-size:0.8em; color:#666;">({{ tagged_articles.size }})</span></h2>
+  <ul>
+    {% for item in tagged_articles %}
+      <li>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% if item.date %}
+          <span style="font-size:0.8em; color:#666;">· {{ item.date | date: "%b %d, %Y" }}</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if tagged_solutions.size > 0 %}
+  <h2>🔧 Solutions <span style="font-size:0.8em; color:#666;">({{ tagged_solutions.size }})</span></h2>
+  <ul>
+    {% for item in tagged_solutions %}
+      <li>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% if item.date %}
+          <span style="font-size:0.8em; color:#666;">· {{ item.date | date: "%b %d, %Y" }}</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

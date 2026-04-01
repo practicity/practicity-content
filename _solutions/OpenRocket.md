@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Aerospace"
 complexity: "★★★☆☆"
 activity: "★★★★☆"
-tags: [Simulation, Aerospace, Model Rocketry, Physics, Java]
+tags: [Simulation, Aerospace, Physics, Java]
 website: "https://openrocket.info/"
 github: "https://github.com/openrocket/openrocket"
 license: "GPL 3"

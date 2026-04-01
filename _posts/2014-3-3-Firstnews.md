@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simulation Software to be added to the catalog
-tags: [Simulation, practi.city]
+tags: [Simulation, Solutions]
 ---
 
 This post simply lists simulation software to be added to the 'Simsoftware' catalog.

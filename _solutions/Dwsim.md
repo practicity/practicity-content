@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Chemical Industry"
 complexity: "★★★☆☆"
 activity: "★★★★☆"
-tags: [Simulation, CAPE, Thermodynamic, Process Manufacturing, DWSIM, Csharp]
+tags: [Simulation, CAPE, Chemistry, Thermodynamics, Process Manufacturing, Csharp]
 website: "https://dwsim.org/"
 github: "https://github.com/DanWBR/dwsim"
 license: "GPL 3"

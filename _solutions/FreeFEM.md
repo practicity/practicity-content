@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "PDE / Finite Element Method"
 complexity: "★★★★☆"
 activity: "★★★★☆"
-tags: [Simulation, PDE, Finite Element Method, Mathematics, Multi-physics, Cpp]
+tags: [Simulation, PDE, Finite Element Method, Mathematics, Physics, Cpp]
 website: "https://freefem.org/"
 github: "https://github.com/FreeFem/FreeFem-sources"
 license: "LGPL"

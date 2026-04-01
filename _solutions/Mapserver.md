@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "GIS / Geospatial"
 complexity: "★★★★☆"
 activity: "★★★★★"
-tags: [GIS, Mapping, Spatial Data, Cartography, Python, PHP, Java, JavaScript]
+tags: [GIS, Python, PHP, Java, JavaScript]
 website: "https://mapserver.org/"
 github: "https://github.com/MapServer/MapServer"
 license: "MIT"

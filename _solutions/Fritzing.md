@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Electronics"
 complexity: "★★☆☆☆"
 activity: "★★★★☆"
-tags: [Simulation, Electronics, PCB Design, Breadboard, Maker, Cpp]
+tags: [Simulation, Electronics, PCB Design, Cpp]
 website: "https://fritzing.org/"
 github: "https://github.com/fritzing/fritzing-app"
 license: "GPL 3"

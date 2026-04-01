@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Urban / City Simulation"
 complexity: "★★★★☆"
 activity: "★★★☆☆"
-tags: [Simulation, Urban Planning, City Building, Microscopic, Traffic, Rust]
+tags: [Simulation, Urban Planning, Traffic, Rust]
 website: "https://aeplay.org/citybound"
 github: "https://github.com/citybound/citybound"
 license: "AGPL 3.0"

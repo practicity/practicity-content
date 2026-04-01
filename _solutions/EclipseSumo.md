@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Traffic / Urban Mobility"
 complexity: "★★★★★"
 activity: "★★★★★"
-tags: [Simulation, Traffic, Urban Mobility, Routing, Public Transit, Cpp]
+tags: [Simulation, Traffic, Public Transit, Cpp]
 website: "https://eclipse.dev/sumo/"
 github: "https://github.com/eclipse-sumo/sumo"
 license: "Eclipse Public License 2.0"

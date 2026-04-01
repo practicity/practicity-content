@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "IoT / Smart Cities"
 complexity: "★★★☆☆"
 activity: "★★★☆☆"
-tags: [Simulation, IoT, Smart City, WSN, Network, Java]
+tags: [Simulation, IoT, Smart City, WSN, Networking, Java]
 website: "https://cupcarbon.com/"
 github: "https://github.com/ahmedkammarti/cupcarbon"
 license: "GPL 3"

@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Multi-Physics / Finite Element Method"
 complexity: "★★★★☆"
 activity: "★★★★☆"
-tags: [Simulation, FEM, Multi-physics, CFD, Electromagnetics, Heat Transfer, Fortran]
+tags: [Simulation, FEM, Physics, CFD, Electromagnetic, Thermodynamics, Fortran]
 website: "https://www.elmerfem.org/"
 github: "https://github.com/ElmerCSC/elmerfem"
 license: "GPL 2.0"

@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Electronics / Process Simulation"
 complexity: "★★★☆☆"
 activity: "★★★☆☆"
-tags: [Simulation, Electronics, Block-Based, LabVIEW Alternative, Microcontrollers, Java]
+tags: [Simulation, Electronics, Microcontrollers, Java]
 website: "https://myopenlab.org/"
 github: "https://github.com/MyOpenLab/MyOpenLab"
 license: "GPL"

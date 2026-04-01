@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Economics / AI"
 complexity: "★★★★☆"
 activity: "★★★☆☆"
-tags: [Simulation, AI Agents, Economics, Market, Python, LLM]
+tags: [Simulation, AI, Economics, Python, LLM]
 website: "https://www.microsoft.com/en-us/research/blog/magentic-marketplace-an-open-source-simulation-environment-for-studying-agentic-markets/"
 github: "https://github.com/microsoft/magentic-marketplace"
 license: "MIT"

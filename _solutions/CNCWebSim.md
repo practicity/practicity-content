@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "CNC / Manufacturing"
 complexity: "★★☆☆☆"
 activity: "★★☆☆☆"
-tags: [Simulation, CNC, G-code, Milling, WebGL, 3D, JavaScript]
+tags: [Simulation, CNC, G-code, Milling, JavaScript]
 website: "https://filipecaixeta.github.io/cncwebsim/"
 github: "https://github.com/filipecaixeta/cncwebsim"
 license: "MIT"

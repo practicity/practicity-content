@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Economics / ABM"
 complexity: "★★★★☆"
 activity: "★★★☆☆"
-tags: [Economics, SFC, Agent-Based, Simulation, Python]
+tags: [Economics, Agent-Based, Simulation, Python]
 website: "https://sfctools-framework.readthedocs.io/"
 github: "https://github.com/SFC-Open-Source-Development/sfctools"
 license: "GPL 3.0"

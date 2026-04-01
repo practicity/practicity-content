@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Vehicle Dynamics"
 complexity: "★★★☆☆"
 activity: "★★★★☆"
-tags: [Simulation, Soft-body Physics, Vehicles, Driving, Deformation, Cpp]
+tags: [Simulation, Game, Physics, Vehicles, Cpp]
 website: "https://www.rigsofrods.org/"
 github: "https://github.com/RigsOfRods/rigs-of-rods"
 license: "GPL 3.0"

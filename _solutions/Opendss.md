@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Power Systems / Distribution"
 complexity: "★★★★★"
 activity: "★★★★★"
-tags: [Simulation, Power Distribution, Smart Grid, Electrical Engineering, Delphi]
+tags: [Simulation, Energy, Smart Grid, Delphi]
 website: "https://opendss.epri.com/"
 github: "https://github.com/EPRI/OpenDSS"
 license: "BSD 3-Clause"

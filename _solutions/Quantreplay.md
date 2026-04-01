@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Finance / Trading"
 complexity: "★★★★☆"
 activity: "★★☆☆☆"
-tags: [Simulation, Finance, Trading, Backtesting, Market, Python]
+tags: [Simulation, Economics, Python]
 website: "https://github.com/Quod-Financial/quantreplay"
 github: "https://github.com/Quod-Financial/quantreplay"
 license: "Apache 2.0"

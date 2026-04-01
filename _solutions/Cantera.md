@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Chemical Kinetics / Thermodynamics"
 complexity: "★★★★☆"
 activity: "★★★★★"
-tags: [Simulation, Chemical Kinetics, Thermodynamics, Combustion, Transport Processes, Python, Cpp]
+tags: [Simulation, Chemistry, Thermodynamics, Python, Cpp]
 website: "https://cantera.org/"
 github: "https://github.com/Cantera/cantera"
 license: "BSD 3-Clause"

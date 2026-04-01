@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Virtual Reality"
 complexity: "★★★★☆"
 activity: "★★★★☆"
-tags: [Simulation, VR, Virtual Worlds, Spatial Audio, 3D Modeling, Cpp]
+tags: [Simulation, Virtual Reality, 3D Modeling, Cpp]
 website: "https://overte.org/"
 github: "https://github.com/overte-org/overte"
 license: "Apache 2.0"

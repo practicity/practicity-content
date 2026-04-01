@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "3D Visualization / GIS"
 complexity: "★★★☆☆"
 activity: "★★★☆☆"
-tags: [3D Modeling, OpenStreetMap, GIS, Java, Visualization]
+tags: [3D Modeling, GIS, Visualization, Java]
 website: "https://osm2world.org/"
 github: "https://github.com/tordanik/OSM2World"
 license: "LGPL"

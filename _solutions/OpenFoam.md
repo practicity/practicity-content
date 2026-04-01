@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Computational Fluid Dynamics (CFD)"
 complexity: "★★★★★"
 activity: "★★★★★"
-tags: [Simulation, CFD, Fluid Dynamics, Turbulence, Heat Transfer, Cpp]
+tags: [Simulation, CFD, Fluid Dynamics, Thermodynamics, Cpp]
 website: "https://cfd.direct/openfoam/"
 github: "https://github.com/OpenFOAM/OpenFOAM-dev"
 license: "GPL 3.0"

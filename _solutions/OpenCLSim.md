@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Logistics / Maritime Engineering"
 complexity: "★★★★☆"
 activity: "★★★★☆"
-tags: [Simulation, Logistics, Maritime, Ports, Waterways, Supply Chain, Python]
+tags: [Simulation, Logistics, Maritime, Supply Chain, Python]
 website: "https://www.tudelft.nl/citg/over-faculteit/afdelingen/hydraulic-engineering/sections/rivers-and-ports/research/ports-waterways-digitalization-lab"
 github: "https://github.com/TUDelft-CITG"
 license: "MIT"

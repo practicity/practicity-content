@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Networking / IT"
 complexity: "★★★★☆"
 activity: "★★★★★"
-tags: [Simulation, Networking, Emulation, SDN, Cisco, Python]
+tags: [Simulation, Networking, Emulation, SDN, Python]
 website: "https://gns3.com/"
 github: "https://github.com/GNS3/gns3-gui"
 license: "GPL 3"

@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Systems Engineering / Multi-Domain"
 complexity: "★★★★★"
 activity: "★★★★★"
-tags: [Simulation, Modelica, Systems Engineering, Multi-Domain, Equation-Based, Physics, Cpp]
+tags: [Simulation, Systems Engineering, Mathematics, Physics, Cpp]
 website: "https://openmodelica.org/"
 github: "https://github.com/OpenModelica/OpenModelica"
 license: "OSMC-PL / GPL 3.0"

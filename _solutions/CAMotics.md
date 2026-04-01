@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "CNC / Manufacturing"
 complexity: "★★★☆☆"
 activity: "★★★★☆"
-tags: [Simulation, CNC, G-code, Milling, Toolpath, CAM, Cpp]
+tags: [Simulation, CNC, G-code, Milling, CAM, Cpp]
 website: "https://camotics.org/"
 github: "https://github.com/CauldronDevelopmentLLC/CAMotics"
 license: "GPL 2.0"

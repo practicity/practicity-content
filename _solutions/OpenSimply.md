@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Discrete Event Simulation"
 complexity: "★★★☆☆"
 activity: "★★☆☆☆"
-tags: [Simulation, Discrete-Event, Queuing, Logistics, Pascal, Lazarus]
+tags: [Simulation, Discrete-Event, Logistics, Pascal, Lazarus]
 website: "https://opensimply.org/"
 github: "https://github.com/OpenSimply/OpenSimply"
 license: "GPL / FPC Modified"

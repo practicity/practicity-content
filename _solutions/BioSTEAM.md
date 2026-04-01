@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Process Simulation / Techno-Economic Analysis"
 complexity: "★★★★☆"
 activity: "★★★★☆"
-tags: [Simulation, Biorefinery, Techno-Economic Analysis, Process Design, Sustainability, Python]
+tags: [Simulation, Biorefinery, Chemistry, Sustainability, Python]
 website: "https://biosteam.readthedocs.io/"
 github: "https://github.com/BioSTEAMDevelopmentGroup/biosteam"
 license: "UIUC Open Source"

@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Telecommunications / Networking"
 complexity: "★★★★★"
 activity: "★★★★★"
-tags: [Simulation, Networking, Telecommunications, Discrete-Event, Wi-Fi, 5G, Cpp, Python]
+tags: [Simulation, Networking, Telecommunications, Discrete-Event, Wi-Fi, Cpp, Python]
 website: "https://www.nsnam.org/"
 github: "https://gitlab.com/nsnam/ns-3-dev"
 license: "GPL 2.0"

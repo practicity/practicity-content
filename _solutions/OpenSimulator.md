@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Virtual Worlds"
 complexity: "★★★★☆"
 activity: "★★★☆☆"
-tags: [Simulation, Virtual Reality, 3D World, Metaverse, Csharp]
+tags: [Simulation, Virtual Reality, 3D Modeling, Csharp]
 website: "http://opensimulator.org/"
 github: "https://github.com/opensim/opensim"
 license: "BSD 3-Clause"

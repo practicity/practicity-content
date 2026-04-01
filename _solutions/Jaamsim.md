@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Industry"
 complexity: "★★★☆☆"
 activity: "★★★★☆"
-tags: [Simulation, Training, Discreet Manufacturing, Jaamsim, Java]
+tags: [Simulation, Discrete Manufacturing, Java]
 website: "https://practi.city"
 github: "https://github.com/practicity"
 license: "Apache 2.0"

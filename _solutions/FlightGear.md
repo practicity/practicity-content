@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Aerospace / Flight Simulation"
 complexity: "★★★★★"
 activity: "★★★★★"
-tags: [Simulation, Aviation, Flight Simulator, Aerodynamics, Physics, Cpp]
+tags: [Simulation, Game, Aerospace, Vehicles, Cpp]
 website: "https://www.flightgear.org/"
 github: "https://sourceforge.net/projects/flightgear/"
 license: "GPL 2.0"

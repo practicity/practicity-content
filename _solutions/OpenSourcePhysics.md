@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Educational / Physics"
 complexity: "★★☆☆☆"
 activity: "★★★☆☆"
-tags: [Simulation, Physics, Education, EJS, Modeling, Java, JavaScript]
+tags: [Simulation, Physics, Education, EJS, Java, JavaScript]
 website: "https://www.compadre.org/osp/"
 github: "https://github.com/OpenSourcePhysics"
 license: "GNU GPL"

@@ -14,4 +14,5 @@ last_survey: "March 24, 2026"
 screenshot1: "https://www.flightgear.org/_astro/fgfs-screen-070.CYA75v3C.jpg"
 screenshot2: ""
 screenshot3: ""
+tags: ["Aerospace", "Aviation", "Experiential-Learning", "Game-Based", "Simulation"]
 ---

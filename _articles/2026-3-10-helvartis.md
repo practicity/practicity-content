@@ -13,4 +13,5 @@ Abstract: "[translated by AI] Founded in 1994 by the Commercial Employees Associ
 Helvartis’ main mission is to develop practice-based training concepts for learning careers in the commercial sector.
 The programs we offer are designed for rapid implementation and can be adapted to the various needs of the economy. Our partners benefit from turnkey services to successfully carry out their training projects in practice enterprises (epco).
 The epco in our network are regularly approached by companies looking to recruit new talent. Thanks to precise monitoring of each participant, epco managers are able to guide recruiters toward the candidate they are seeking."
+tags: ["Business-Administration", "Corporate-Training", "Economics", "Workforce-Development"]
 ---

@@ -10,4 +10,5 @@ author: "Londont MET"
 screenshot1: "https://i.ytimg.com/vi/LcqXyUF_iGE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBsoQBZE5bUfb6VwAakRireZ-6Hiw"
 screenshot2: ""
 Abstract: "This video coverage of an event organised by MA Conference Interpreting students at London Metropolitan University."
+tags: ["Active-Learning", "Communication", "Experiential-Learning", "Roleplay", "Teamwork"]
 ---

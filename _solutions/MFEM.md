@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "PDE / Finite Element Method"
 complexity: "★★★★★"
 activity: "★★★★★"
-tags: [Simulation, Finite Element Method, FEM, HPC, Parallel Computing, Cpp]
 website: "https://mfem.org/"
 github: "https://github.com/mfem/mfem"
 license: "BSD 3-Clause"

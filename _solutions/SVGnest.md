@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Manufacturing / Nesting"
 complexity: "★★☆☆☆"
 activity: "★★★☆☆"
-tags: [Simulation, Nesting, CNC, Laser Cutting, Optimization, SVG, JavaScript]
 website: "https://svgnest.com/"
 github: "https://github.com/Jack000/SVGnest"
 license: "MIT"

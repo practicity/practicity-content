@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Discrete Event Simulation"
 complexity: "★★★☆☆"
 activity: "★★☆☆☆"
-tags: [Simulation, Discrete-Event, Logistics, Pascal, Lazarus]
 website: "https://opensimply.org/"
 github: "https://github.com/OpenSimply/OpenSimply"
 license: "GPL / FPC Modified"
@@ -14,5 +13,5 @@ last_survey: "March 24, 2026"
 screenshot1: "https://opensimply.org/favicon256.png"
 screenshot2: "https://opensimply.org/img/MMC_queue.png?v=1770327210"
 screenshot3: "https://opensimply.org/img/MMC_queue_OpenSIMPLY.gif?v=1578305474"
-tags: ["Logistics", "Simulation", "Visualization"]
+tags: ["Logistics", "Simulation", "Visualization", "Pascal", "Lazarus"]
 ---

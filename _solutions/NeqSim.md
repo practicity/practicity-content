@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Thermodynamics / Process Simulation"
 complexity: "★★★★☆"
 activity: "★★★☆☆"
-tags: [Simulation, Thermodynamics, Process Engineering, Oil and Gas, Java]
 website: "https://equinor.github.io/neqsimhome/"
 github: "https://github.com/equinor/neqsim"
 license: "Apache 2.0"

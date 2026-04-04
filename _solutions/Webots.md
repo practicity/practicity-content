@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Robotics"
 complexity: "★★★★☆"
 activity: "★★★★★"
-tags: [Simulation, Robotics, 3D Modeling, Physics, ROS, Cpp, Python]
 website: "https://cyberbotics.com/"
 github: "https://github.com/cyberbotics/webots"
 license: "Apache 2.0"

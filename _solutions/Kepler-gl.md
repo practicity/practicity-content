@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Geospatial Visualization"
 complexity: "★★★☆☆"
 activity: "★★★★☆"
-tags: [Visualization, Geospatial, Big Data, Mapbox, JavaScript, React]
 website: "https://kepler.gl/"
 github: "https://github.com/keplergl/kepler.gl"
 license: "MIT"
@@ -14,5 +13,5 @@ last_survey: "March 24, 2026"
 screenshot1: "https://avatars.githubusercontent.com/u/49567843?v=4"
 screenshot2: "https://d1a3f4spazzrp4.cloudfront.net/kepler.gl/website/hero/kepler.gl-contours.png"
 screenshot3: "https://spatial-desktop.foursquare.com/app-data/keplergl/images/screenshots/img-2.png"
-tags: ["Big-Data", "Data-Analytics", "GIS", "Urban-Planning", "Visualization"]
+tags: ["Big-Data", "Data-Analytics", "GIS", "Urban-Planning", "Visualization", "Javascript"]
 ---

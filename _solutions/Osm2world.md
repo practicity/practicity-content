@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "3D Visualization / GIS"
 complexity: "★★★☆☆"
 activity: "★★★☆☆"
-tags: [3D Modeling, GIS, Visualization, Java]
 website: "https://osm2world.org/"
 github: "https://github.com/tordanik/OSM2World"
 license: "LGPL"
@@ -14,5 +13,5 @@ last_survey: "March 24, 2026"
 screenshot1: "https://osm2world.org/img/logo.png"
 screenshot2: "http://osm2world.org/examples/0.2.0/thumbs/Passau_from_Inn_2012-09-13_highres-pov.png"
 screenshot3: "https://osm2world.org/examples/webgl/Akropolis.png"
-tags: ["3D-Modeling", "Digital-Twin", "GIS", "Simulation", "Urban-Planning"]
+tags: ["3D-Modeling", "Digital-Twin", "GIS", "Simulation", "Urban-Planning", "Java"]
 ---

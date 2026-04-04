@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Systems Engineering / Multi-Domain"
 complexity: "★★★★★"
 activity: "★★★★★"
-tags: [Simulation, Systems Engineering, Mathematics, Physics, Cpp]
 website: "https://openmodelica.org/"
 github: "https://github.com/OpenModelica/OpenModelica"
 license: "OSMC-PL / GPL 3.0"
@@ -14,5 +13,5 @@ last_survey: "March 29, 2026"
 screenshot1: "https://openmodelica.org/images/logo-glow.svg"
 screenshot2: "https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/_images/taskgraph.png"
 screenshot3: "https://openmodelica.org/images/BR-CED.JPG"
-tags: ["Digital-Twin", "Fluid-Dynamics", "Manufacturing", "Simulation", "Thermodynamics"]
+tags: ["Digital-Twin", "Fluid-Dynamics", "Physics", "Manufacturing", "Simulation", "Thermodynamics", "C++"]
 ---

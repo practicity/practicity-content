@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Smart City / IoT"
 complexity: "★★★★☆"
 activity: "★★★★☆"
-tags: [Smart City, IoT, Data Analytics, Urban Planning, Big Data]
 website: "https://www.snap4city.org/"
 github: "https://github.com/disit/snap4city"
 license: "AGPL"

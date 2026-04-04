@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Renewable Energy / Wind"
 complexity: "★★★★☆"
 activity: "★★★★☆"
-tags: [Simulation, Energy, Turbine, Fluid Dynamics, Cpp]
 website: "https://qblade.org/"
 github: "https://github.com/SimplyDesign/QBlade"
 license: "GPL 3.0"
@@ -14,5 +13,5 @@ last_survey: "March 24, 2026"
 screenshot1: "https://qblade.org/assets/QBlade_logo_black-1024x322.png.webp"
 screenshot2: "https://qblade.org/assets/turbines_overview-1-966x1024.jpg.webp"
 screenshot3: "https://qblade.org/assets/QB_validation_verification-1024x1017.png.webp"
-tags: ["Aerospace", "Energy", "Fluid-Dynamics", "Physics", "Simulation"]
+tags: ["Energy", "Fluid-Dynamics", "Physics", "Simulation", "C++"]
 ---

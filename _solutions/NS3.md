@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Telecommunications / Networking"
 complexity: "★★★★★"
 activity: "★★★★★"
-tags: [Simulation, Networking, Telecommunications, Discrete-Event, Wi-Fi, Cpp, Python]
 website: "https://www.nsnam.org/"
 github: "https://gitlab.com/nsnam/ns-3-dev"
 license: "GPL 2.0"
@@ -14,5 +13,5 @@ last_survey: "March 28, 2026"
 screenshot1: "https://openclsim.readthedocs.io/en/latest/_static/OpenCLSim.png"
 screenshot2: ""
 screenshot3: ""
-tags: ["Communication", "IoT", "Networking", "Simulation"]
+tags: ["Simulation", IoT", "Networking", "Simulation", "C++", "Python"]
 ---

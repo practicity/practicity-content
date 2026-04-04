@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Co-simulation / Smart Grid"
 complexity: "★★★★☆"
 activity: "★★★★☆"
-tags: [Co-simulation, Smart Grid, IoT, Cyber-Physical Systems, Python]
 website: "https://mosaik.offis.de/"
 github: "https://gitlab.com/mosaik/mosaik"
 license: "LGPL"

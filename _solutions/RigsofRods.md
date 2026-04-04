@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Vehicle Dynamics"
 complexity: "★★★☆☆"
 activity: "★★★★☆"
-tags: [Simulation, Game, Physics, Vehicles, Cpp]
 website: "https://www.rigsofrods.org/"
 github: "https://github.com/RigsOfRods/rigs-of-rods"
 license: "GPL 3.0"
@@ -14,5 +13,5 @@ last_survey: "March 24, 2026"
 screenshot1: "https://pbs.twimg.com/profile_images/1089743660097228800/0Rl43p8-_400x400.jpg"
 screenshot2: "https://www.rigsofrods.org/_astro/background-truckrally.yzwuDcdj.png"
 screenshot3: "https://docs.rigsofrods.org/images/videocamera-debug-ingame.png"
-tags: ["Aviation", "FEM", "Physics", "Simulation", "Game-Based"]
+tags: ["Aviation", "FEM", "Physics", "Simulation", "Game-Based", "C++"]
 ---

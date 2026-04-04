@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "GIS / Geospatial"
 complexity: "★★★★☆"
 activity: "★★★★★"
-tags: [GIS, Python, PHP, Java, JavaScript]
 website: "https://mapserver.org/"
 github: "https://github.com/MapServer/MapServer"
 license: "MIT"
@@ -14,5 +13,5 @@ last_survey: "March 24, 2026"
 screenshot1: "https://mapserver.org/_static/banner.png"
 screenshot2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmKvWcOqiLMt6vyCzIPN4KUJU4D_lk5ytowg&s"
 screenshot3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwYznGIlK_dVShlh-uhcEJAyq1aHS8Rs_3MA&s"
-tags: ["GIS", "Simulation", "Visualization", "Urban-Planning"]
+tags: ["GIS", "Simulation", "Visualization", "Urban-Planning", "Javascript", "Python", "PHP"]
 ---

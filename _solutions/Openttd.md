@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Transport Simulation (Game)"
 complexity: "★★★☆☆"
 activity: "★★★★★"
-tags: [Game, Logistics, Cpp]
 website: "https://www.openttd.org/"
 github: "https://github.com/OpenTTD/OpenTTD"
 license: "GPL 2.0"
@@ -14,5 +13,5 @@ last_survey: "March 24, 2026"
 screenshot1: "https://wiki.openttd.org/uploads/en/Manual/OpenttdLogo.png"
 screenshot2: "https://www.openttd.org/screenshots/1.9-alexthedacian_2_thumb.png"
 screenshot3: "https://www.openttd.org/screenshots/1.4-cargodist_thumb.png"
-tags: ["Aviation", "Business-Administration", "Game-Based", "Logistics", "Simulation"]
+tags: ["Aerospace", "Urban-Planning", "Business-Administration", "Game-Based", "Logistics", "Simulation", "C++"]
 ---

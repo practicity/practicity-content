@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Power Systems / Energy"
 complexity: "★★★★☆"
 activity: "★★★☆☆"
-tags: [Simulation, Energy, Hydrothermal]
 website: "https://simsee.org/"
 github: "https://github.com/simsee/SimSEE"
 license: "GPL 3.0"

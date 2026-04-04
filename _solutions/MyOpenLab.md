@@ -6,7 +6,6 @@ type: "Simulation Software"
 category: "Electronics / Process Simulation"
 complexity: "★★★☆☆"
 activity: "★★★☆☆"
-tags: [Simulation, Electronics, Microcontrollers, Java]
 website: "https://myopenlab.org/"
 github: "https://github.com/MyOpenLab/MyOpenLab"
 license: "GPL"
@@ -14,5 +13,5 @@ last_survey: "March 24, 2026"
 screenshot1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyKm1eXi4H0i_i97Rqnxxu64xChFFXgdQfuw&s"
 screenshot2: "https://myopenlab.org/wp-content/uploads/2017/07/VariablesExample.png"
 screenshot3: "https://myopenlab.org/wp-content/uploads/2017/07/VariablesExample-Logic.png"
-tags: ["Active-Learning", "Experiential-Learning", "IoT", "Physics", "Simulation"]
+tags: ["Active-Learning", "Experiential-Learning", "IoT", "Physics", "Simulation", "Java"]
 ---

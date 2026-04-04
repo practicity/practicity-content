@@ -13,5 +13,5 @@ last_survey: "March 29, 2026"
 screenshot1: "https://openmodelica.org/images/logo-glow.svg"
 screenshot2: "https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/_images/taskgraph.png"
 screenshot3: "https://openmodelica.org/images/BR-CED.JPG"
-tags: ["Digital-Twin", "Fluid-Dynamics", "Physics", "Manufacturing", "Simulation", "Thermodynamics", "C++"]
+tags: ["Digital-Twin", "Fluid-Dynamics", "Physics", "Manufacturing", "Simulator", "Thermodynamics", "C++"]
 ---

@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "CNC / Manufacturing"
 complexity: "★★☆☆☆"
 activity: "★★☆☆☆"
-tags: ["CAD/CAM", "CNC", "Experiential-Learning", "Manufacturing", "Simulation", "Javascript"]
+tags: ["CAD/CAM", "CNC", "Experiential-Learning", "Manufacturing", "Simulator", "Javascript"]
 website: "https://filipecaixeta.github.io/cncwebsim/"
 github: "https://github.com/filipecaixeta/cncwebsim"
 license: "MIT"

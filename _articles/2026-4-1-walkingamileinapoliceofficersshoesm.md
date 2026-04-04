@@ -3,7 +3,7 @@ layout: article
 title: "Walking a Mile in a Police Officer’s Shoes: Media Immersion in Reality-Based Training at Toronto Police College"
 description: "A media immersion at Toronto Police College showcases evidence-based, reality-based officer training—integrating PACER and Iacobucci recommendations—through hands-on scenarios and structured debriefs to deepen public understanding of frontline policing challenges."
 type: "Interview"
-tags: ["Criminal-Justice", "Reflectice-Practice", "Communication", "Police-Training", "Simulation", "Roleplay"]
+tags: ["Criminal-Justice", "Reflective-Practice", "Communication", "Police-Training", "Simulation", "Roleplay"]
 original: "https://www.youtube.com/watch?v=SIJEBo9CJYI&list=PLutfNpLVH4UsP22uL3SbOJMCHiAn4-hLP&index=77"
 created_on: "April 1, 2026"
 author: "Toronto Police College"

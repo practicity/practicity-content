@@ -13,5 +13,5 @@ last_survey: "March 24, 2026"
 screenshot1: "https://freefem.org/img/symbol_FreeFEM_97x97.png"
 screenshot2: ""
 screenshot3: ""
-tags: ["FEM", "Mathematics", "Physics", "Simulation", "Fluid-Dynamics", "C++"]
+tags: ["FEM", "Mathematics", "Physics", "Simulator", "Fluid-Dynamics", "C++"]
 ---

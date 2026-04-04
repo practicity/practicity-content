@@ -13,5 +13,5 @@ last_survey: "March 24, 2026"
 screenshot1: "https://sfctools-framework.readthedocs.io/en/latest/_images/title.png"
 screenshot2: ""
 screenshot3: ""
-tags: ["Economics", "Python", "Simulation", "Python"]
+tags: ["Economics", "Python", "Simulator", "Python"]
 ---

@@ -14,6 +14,6 @@ last_survey: "March 24, 2026"
 screenshot1: "https://github.com/srebughini/ASALI/raw/master/GUI/src/resources/images/BigLogo.png"
 screenshot2: ""
 screenshot3: ""
-tags: ["Chemistry", "Fluid-Dynamics", "Physics", "Simulation", "Thermodynamics"]
-tags: ["Chemistry", "Fluid-Dynamics", "Simulation", "Thermodynamics", "Visualization"]
+tags: ["Chemistry", "Fluid-Dynamics", "Physics", "Simulator", "Thermodynamics"]
+tags: ["Chemistry", "Fluid-Dynamics", "Simulator", "Thermodynamics", "Visualization"]
 ---

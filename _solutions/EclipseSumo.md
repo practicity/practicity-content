@@ -13,5 +13,5 @@ last_survey: "March 24, 2026"
 screenshot1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ_s1GnyqoYgAuKNNO-cYYRJy4A1fMwTJ57w&s"
 screenshot2: ""
 screenshot3: ""
-tags: ["Simulation", "Urban-Planning", "AI", "Data-Analytics", "Logistics", "Visualization", "C++"]
+tags: ["Simulator", "Urban-Planning", "AI", "Data-Analytics", "Logistics", "Visualization", "C++"]
 ---

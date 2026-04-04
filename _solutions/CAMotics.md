@@ -3,7 +3,7 @@ layout: solution
 title: "CAMotics"
 description: "CAMotics is an open-source, 3-axis CNC milling/machining simulator. It utilizes volumetric 3D rendering to accurately simulate and visualize G-code toolpaths, helping machinists and engineers catch errors, prevent machine crashes, and optimize their manufacturing processes."
 type: "Simulation Software"
-tags: ["CNC", "CAD/CAM", "Manufacturing", "Simulation", "Visualization"]
+tags: ["CNC", "CAD/CAM", "Manufacturing", "Simulator", "Visualization"]
 category: "CNC / Manufacturing"
 complexity: "★★★☆☆"
 activity: "★★★★☆"

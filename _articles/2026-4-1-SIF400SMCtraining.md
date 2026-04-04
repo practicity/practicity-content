@@ -4,7 +4,7 @@ title: "How does the SIF-400, the training system for Industry 4.0, work?"
 description: "The SIF-400 training system simulates a smart factory using Industry 4.0 technologies to prepare learners with practical skills for the future of digitalized manufacturing."
 type: "Commercial Showcase"
 original: "https://www.youtube.com/watch?v=eXd_to3-QWU"
-tags: ["Information-Systems", "IoT", "Manufacturing", "Robotics", "Simulation", "Simulator", "Experiential-Learning"]
+tags: ["Information-Systems", "IoT", "Industrial-Operations", "Robotics", "Simulation", "Simulator", "Experiential-Learning"]
 created_on: "April 1, 2026"
 author: "SMC International Training"
 screenshot1: "https://i.ytimg.com/vi/eXd_to3-QWU/maxresdefault.jpg"

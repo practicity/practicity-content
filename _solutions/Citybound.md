@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Urban / City Simulation"
 complexity: "★★★★☆"
 activity: "★★★☆☆"
-tags: ["Game-Based", "Simulation", "Urban-Planning", "Digital-Twin", "Visualization"]
+tags: ["Game-Based", "Simulator", "Urban-Planning", "Digital-Twin", "Visualization"]
 website: "https://aeplay.org/citybound"
 github: "https://github.com/citybound/citybound"
 license: "AGPL 3.0"

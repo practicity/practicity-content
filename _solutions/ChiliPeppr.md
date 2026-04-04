@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "CNC / Manufacturing"
 complexity: "★★★☆☆"
 activity: "★★★☆☆"
-tags: ["CAD/CAM", "CNC", "Manufacturing", "Simulation", "Visualization"]
+tags: ["CAD/CAM", "CNC", "Manufacturing", "Simulator", "Visualization"]
 website: "http://chilipeppr.com/"
 github: "https://github.com/chilipeppr"
 license: "MIT"

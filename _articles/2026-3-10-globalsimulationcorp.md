@@ -3,7 +3,6 @@ layout: article
 title: "Ten-Year Forecast 2014: Global Simulation Corps"
 description: "Advances in computing and collective participation are reviving ambitious efforts to build large-scale simulations that model complex global systems to better anticipate the future."
 type: "Interview"
-tags: [Simulation, Innovation, Systems Dynamics, Economics]
 original: "https://www.youtube.com/watch?v=-gyA08fXmH0"
 created_on: "March 24, 2026"
 author: "Alexandre GAIN"

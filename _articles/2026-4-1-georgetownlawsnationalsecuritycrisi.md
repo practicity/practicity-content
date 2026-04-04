@@ -3,7 +3,6 @@ layout: article
 title: "Georgetown Law’s National Security Crisis Simulation: Integrating Law and Policy"
 description: "This video presents Georgetown Law’s immersive national security crisis simulation that integrates legal analysis and policy decision-making across federal, state, congressional, and media actors under real-time pressure and expert evaluation."
 type: "Interview"
-tags: ["National Security", "Crisis Simulation", "Interagency Coordination", "Experiential Learning", "Public Health", "Cybersecurity"]
 original: "https://www.youtube.com/watch?v=xErijP9O5Os&list=PLutfNpLVH4UsP22uL3SbOJMCHiAn4-hLP&index=47"
 created_on: "April 1, 2026"
 author: "Alexandre GAIN"

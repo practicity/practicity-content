@@ -3,7 +3,6 @@ layout: article
 title: "A Stepwise Framework for Designing Educational Simulations"
 description: "This video presents a flexible, discipline-agnostic framework for designing and assessing teaching simulations, from clarifying objectives to logistics and outputs."
 type: "Interview"
-tags: ["Simulation Design", "Experiential Learning", "Pedagogy", "Assessment", "Political Science", "Active Learning"]
 original: "https://www.youtube.com/watch?v=OsZsikxOKyg&list=PLutfNpLVH4UsP22uL3SbOJMCHiAn4-hLP&index=9"
 created_on: "April 1, 2026"
 author: "Alexandre GAIN"

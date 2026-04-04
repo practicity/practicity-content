@@ -3,7 +3,6 @@ layout: article
 title: "A Scenario-Based Police Training Village in Singapore: Design, Resources, and Outcomes"
 description: "An overview of a modular police training village in Singapore that uses realistic urban simulations and simulated munitions to prepare officers for incident management, use-of-force, custody, and public-security operations."
 type: "Interview"
-tags: ["Police Training", "Simulation", "Law Enforcement", "Public Security", "Urban Policing", "Operational Readiness"]
 original: "https://www.youtube.com/watch?v=FJI7JElIlpA&list=PLutfNpLVH4UsP22uL3SbOJMCHiAn4-hLP&index=83"
 created_on: "April 1, 2026"
 author: "Alexandre GAIN"

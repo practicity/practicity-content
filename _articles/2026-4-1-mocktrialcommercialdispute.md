@@ -10,5 +10,5 @@ author: "Alexandre GAIN"
 screenshot1: "https://i.ytimg.com/vi/iM-BshZAdLw/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBsoQBZE5bUfb6VwAakRireZ-6Hiw"
 screenshot2: ""
 Abstract: "This video coverage and series of mini interviews shows the importance of experiential learning tools as mock trials installed with the aim to show the participants the essential mechanisms at stake during an international legal dispute (in Russian and English language)"
-tags: ["Experiential-Learning", "Law", "Simulation", "Roleplay", "Conflict-Resolution"]
+tags: ["Experiential-Learning", "Law", "Simulation", "Roleplay", "Conflict-Resolution", "Event"]
 ---

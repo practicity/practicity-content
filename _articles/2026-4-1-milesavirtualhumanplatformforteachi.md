@@ -3,7 +3,6 @@ layout: article
 title: "MILES: A Virtual Human Platform for Teaching Motivational Interviewing (USC Institute for Creative Technologies & School of Social Work)"
 description: "This video presents MILES, a collaborative USC platform that uses a life-sized virtual human and classroom analytics to train clinicians in motivational interviewing for work with returning veterans and service members."
 type: "Interview"
-tags: ["Motivational Interviewing", "Virtual Humans", "Clinical Training", "Veteran Care", "Educational Technology", "Mental Health"]
 original: "https://www.youtube.com/watch?v=Sg8x1rttBho&list=PLutfNpLVH4UsP22uL3SbOJMCHiAn4-hLP&index=5"
 created_on: "April 1, 2026"
 author: "Alexandre GAIN"

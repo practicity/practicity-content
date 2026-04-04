@@ -3,7 +3,6 @@ layout: article
 title: "Hydra Suite Immersive Training for Missing Person Investigations in a Police Sciences Department"
 description: "An overview of how a Police Sciences department employs the Hydra Suite to run an immersive, recorded missing-person investigation simulation for undergraduates, emphasizing reflective practice over assessment."
 type: "Interview"
-tags: ["Immersive Learning", "Police Training", "Experiential Learning", "Reflective Practice", "Undergraduate Education", "Missing Persons"]
 original: "https://www.youtube.com/watch?v=yXf8D_5spvc&list=PLutfNpLVH4UsP22uL3SbOJMCHiAn4-hLP&index=46"
 created_on: "April 1, 2026"
 author: "Alexandre GAIN"

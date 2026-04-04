@@ -3,7 +3,6 @@ layout: article
 title: "A Student-Led Simulation of the UNFCCC Paris Climate Negotiations (COP21)"
 description: "Students participate in a UNFCCC-style policy simulation of the Paris climate negotiations, developing negotiation skills and drafting pledges aimed at meeting the 2°C target by 2100."
 type: "Interview"
-tags: ["Climate Policy", "UNFCCC", "Climate Negotiations", "Experiential Learning", "Youth Engagement", "Simulation"]
 original: "https://www.youtube.com/watch?v=RM3T5CtZbz4&list=PLutfNpLVH4UsP22uL3SbOJMCHiAn4-hLP&index=57"
 created_on: "April 1, 2026"
 author: "Alexandre GAIN"

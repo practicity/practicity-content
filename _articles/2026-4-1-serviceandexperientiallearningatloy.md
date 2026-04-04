@@ -3,7 +3,6 @@ layout: article
 title: "Service and Experiential Learning at Loyola University Chicago (Loyola University Chicago)"
 description: "A multidisciplinary overview of Loyola University Chicago’s service- and experiential-learning models that connect students with community partners to conduct research, create deliverables, and achieve measurable impact."
 type: "Interview"
-tags: ["Service Learning", "Experiential Learning", "Community Engagement", "Marketing Research", "Sustainability"]
 original: "https://www.youtube.com/watch?v=1vALFpX-p5g&list=PLutfNpLVH4UsP22uL3SbOJMCHiAn4-hLP&index=96"
 created_on: "April 1, 2026"
 author: "Alexandre GAIN"

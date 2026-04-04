@@ -3,7 +3,7 @@ layout: article
 title: "Empowerment"
 description: "A poem to Simulated Worplaces"
 type: "Other"
-tags: ["Simulated Workplace", "Experiential Learning", "Education"]
+tags: ["Simulated-Workplace", "Experiential-Learning", "Education"]
 original: "https://www.youtube.com/watch?v=IxmqQmb5iUE"
 created_on: "April 1, 2026"
 author: "Dr. Kathy D'Antoni"

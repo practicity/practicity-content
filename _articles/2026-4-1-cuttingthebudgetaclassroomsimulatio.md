@@ -3,7 +3,6 @@ layout: article
 title: "Cutting the Budget: A Classroom Simulation of Federal Spending Trade-offs"
 description: "A classroom simulation uses tangible tokens and real-world data to explore the human impacts and policy trade-offs of cutting and reallocating federal spending."
 type: "Interview"
-tags: ["Public Policy", "Federal Budget", "Civic Education", "Resource Allocation", "Policy Analysis", "Experiential Learning"]
 original: "https://www.youtube.com/watch?v=cyipqMLMPT4&list=PLutfNpLVH4UsP22uL3SbOJMCHiAn4-hLP&index=16"
 created_on: "April 1, 2026"
 author: "Alexandre GAIN"

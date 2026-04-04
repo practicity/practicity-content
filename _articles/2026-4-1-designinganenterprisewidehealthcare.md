@@ -3,7 +3,6 @@ layout: article
 title: "Designing an Enterprise-wide Healthcare Simulation Program: Planning, Debriefing, and Interprofessional Collaboration"
 description: "This video explains how an academic health system builds and sustains an enterprise-wide simulation program through research-informed planning, objective-driven design, and debriefing to enhance interprofessional education and confidence across learner levels."
 type: "Interview"
-tags: ["Healthcare Simulation", "Medical Education", "Debriefing", "Interprofessional Collaboration", "Curriculum Design", "Educational Theory"]
 original: "https://www.youtube.com/watch?v=FuQgyWwvlqI&list=PLutfNpLVH4UsP22uL3SbOJMCHiAn4-hLP&index=102"
 created_on: "April 1, 2026"
 author: "Alexandre GAIN"

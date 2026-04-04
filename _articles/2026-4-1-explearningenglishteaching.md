@@ -3,7 +3,6 @@ layout: article
 title: "Implementation of Students’ Experiential English Learning through Technology: Case Study"
 description: "A Business English course showed that using smartphones and digital tools for hands-on, experiential tasks can effectively replace traditional paper-based learning while improving student engagement and practical skills."
 type: "Seminar"
-tags: [Simulation, Classroom, Education, Resource, Language Teaching, ]
 original: "https://www.youtube.com/watch?v=Gw4ptU8VGbE"
 created_on: "September 17, 2020"
 author: "Dr. Patrick Chi-wai LEE, Assistant Professor, School of Arts and Social Sciences, The Open University of Hong Kong"

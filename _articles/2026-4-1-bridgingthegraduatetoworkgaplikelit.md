@@ -3,7 +3,6 @@ layout: article
 title: "Bridging the Graduate-to-Work Gap: Like Literally's Model for Early-Career Training, Manager Enablement, and Peer Video Learning"
 description: "A founder presents a three-part approach—early-career training, manager development, and peer-to-peer video learning—to accelerate Gen Z and Millennial readiness for corporate environments and help organizations adapt to incoming talent."
 type: "Interview"
-tags: ["Workforce Development", "Graduate Employability", "Manager Training", "Peer Learning", "Body Language", "Corporate Onboarding"]
 original: "https://www.youtube.com/watch?v=MyrcZ939BBE&list=PLutfNpLVH4UsP22uL3SbOJMCHiAn4-hLP&index=63"
 created_on: "April 1, 2026"
 author: "Alexandre GAIN"

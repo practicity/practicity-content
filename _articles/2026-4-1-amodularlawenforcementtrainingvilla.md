@@ -3,7 +3,6 @@ layout: article
 title: "A Modular Law-Enforcement Training Village: Design, Scenarios, and Preparedness"
 description: "This video presents a modular training village that recreates urban settings to deliver scenario-based instruction across incident management, command, investigations, custody operations, and security preparedness."
 type: "Interview"
-tags: ["Police Training", "Urban Simulation", "Incident Management", "Scenario Training", "Public Safety", "Custody Operations"]
 original: "https://www.youtube.com/watch?v=FJI7JElIlpA&list=PLutfNpLVH4UsP22uL3SbOJMCHiAn4-hLP&index=84"
 created_on: "April 1, 2026"
 author: "Alexandre GAIN"

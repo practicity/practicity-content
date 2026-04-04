@@ -13,5 +13,5 @@ last_survey: "March 28, 2026"
 screenshot1: "https://openclsim.readthedocs.io/en/latest/_static/OpenCLSim.png"
 screenshot2: ""
 screenshot3: ""
-tags: ["Simulation", IoT", "Networking", "Simulation", "C++", "Python"]
+tags: ["IoT", "Networking", "Information-Systems", "Simulator", "C++", "Python"]
 ---

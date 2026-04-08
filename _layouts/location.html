@@ -14,19 +14,26 @@ layout: default
     <table>
       <tr>
         <td style="padding-right: 30px;"><strong>Name</strong></td>
-        <td>{{ page.title }}</td>
+        <td>{{ page.name }}</td>
       </tr>
+      {% if page.locationid %}
+      <tr>
+        <td style="padding-right: 30px;"><strong>Location ID</strong></td>
+        <td>{{ page.locationid }}</td>
+      </tr>
+      {% endif %}
     </table>
 
     {% if page.locationid %}
     <div style="margin-top: 16px;">
-      <a href="{{ site.microverse_url }}?locationid={{ page.locationid }}" target="_blank" rel="noopener"
-         style="display:inline-block; padding:8px 14px; background:#333; color:#fff; border-radius:6px; text-decoration:none; font-size:0.9em;">
+    <a id="microverse-link" 
+        href="{{ site.microverse_url }}?locationid={{ page.locationid }}" 
+        target="_blank" rel="noopener"
+        style="display:inline-block; padding:8px 14px; background:#333; color:#fff; border-radius:6px; text-decoration:none; font-size:0.9em;">
         🌐 Navigate in Microverse
-      </a>
+    </a>
     </div>
     {% endif %}
-  </div>
 
   <!-- RIGHT COLUMN: Illustrations -->
   <div class="illustrations">

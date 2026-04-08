@@ -72,7 +72,7 @@ layout: default
         </div>
 
         <div class="item-content">
-          <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+          <h2><a href="{{ item.url | relative_url }}">{{ item.name }} <span style="font-size: 0.6em; color: #999; font-weight: normal;">({{ item.locationid }})</span></a></h2>
           <p>{{ item.description }}</p>
           {% if item.tags %}
             <div class="item-tags">

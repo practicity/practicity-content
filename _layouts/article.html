@@ -33,55 +33,12 @@ layout: default
     </table>
 
     {% if page.locationid %}
-    <div id="microverse-link-container" style="margin-top: 16px;">
-      <a id="microverse-link" href="#" target="_blank" rel="noopener"
-         style="display:inline-block; padding:8px 14px; background:#333; color:#fff; border-radius:6px; text-decoration:none; font-size:0.9em; opacity:0.4; pointer-events:none;">
+    <div style="margin-top: 16px;">
+      <a href="{{ site.microverse_url }}?locationid={{ page.locationid }}" target="_blank" rel="noopener"
+         style="display:inline-block; padding:8px 14px; background:#333; color:#fff; border-radius:6px; text-decoration:none; font-size:0.9em;">
         🌐 Navigate in Microverse
       </a>
     </div>
-
-    <script>
-    (function() {
-      var locationId = {{ page.locationid | jsonify }};
-      var microverseUrl = {{ site.microverse_url | jsonify }};
-
-      fetch(microverseUrl + '/objects.js')
-        .then(function(r) { return r.text(); })
-        .then(function(text) {
-          var data = null;
-          try {
-            var cleaned = text.replace(/^export\s+/gm, '');
-            var fn = new Function(
-              cleaned +
-              '; if (typeof OBJECT_DEFINITIONS !== "undefined") return OBJECT_DEFINITIONS;' +
-              ' if (typeof objects !== "undefined") return objects;' +
-              ' if (typeof locations !== "undefined") return locations;' +
-              ' return null;'
-            );
-            data = fn();
-          } catch(e) { return; }
-
-          if (!Array.isArray(data)) return;
-
-          var loc = data.find(function(o) {
-            return o.id === locationId || o.locationid === locationId || o.name === locationId;
-          });
-
-          if (!loc) return;
-
-          var url = microverseUrl
-            + '?loc=' + loc.cameraStartX + ',' + loc.cameraStartZ + ',' + loc.cameraStartY
-            + '&pitch=' + loc.cameraStartPitch
-            + '&yaw=' + loc.cameraStartYaw
-            + '&interact=true';
-
-          var btn = document.getElementById('microverse-link');
-          btn.href = url;
-          btn.style.opacity = '1';
-          btn.style.pointerEvents = 'auto';
-        });
-    })();
-    </script>
     {% endif %}
   </div>
 

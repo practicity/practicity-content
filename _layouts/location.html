@@ -8,32 +8,18 @@ layout: default
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start;">
 
-  <!-- LEFT COLUMN: Quick Facts -->
+  <!-- LEFT COLUMN: Location Facts -->
   <div class="quick-facts">
     <h3 style="margin-top: 0;">📊 Quick Facts</h3>
     <table>
       <tr>
-        <td style="padding-right: 30px;"><strong>Type</strong></td>
-        <td>{{ page.type }}</td>
+        <td style="padding-right: 30px;"><strong>Name</strong></td>
+        <td>{{ page.title }}</td>
       </tr>
-      <tr>
-        <td style="padding-right: 30px;"><strong>Author</strong></td>
-        <td>{{ page.author }}</td>
-      </tr>
-      <tr>
-        <td style="padding-right: 30px;"><strong>Published</strong></td>
-        <td>{{ page.created_on }}</td>
-      </tr>
-      {% if page.original %}
-      <tr>
-        <td style="padding-right: 30px;"><strong>Source</strong></td>
-        <td><a href="{{ page.original }}" target="_blank" rel="noopener">Visit Source</a></td>
-      </tr>
-      {% endif %}
     </table>
 
     {% if page.locationid %}
-    <div id="microverse-link-container" style="margin-top: 16px;">
+    <div style="margin-top: 16px;">
       <a id="microverse-link" href="#" target="_blank" rel="noopener"
          style="display:inline-block; padding:8px 14px; background:#333; color:#fff; border-radius:6px; text-decoration:none; font-size:0.9em; opacity:0.4; pointer-events:none;">
         🌐 Navigate in Microverse
@@ -69,6 +55,11 @@ layout: default
 
           if (!loc) return;
 
+          // Populate map coordinates
+          var coords = document.getElementById('loc-coords');
+          if (coords) coords.textContent = loc.mapX + ' / ' + loc.mapY + ' / ' + loc.mapZ;
+
+          // Build and activate button
           var url = microverseUrl
             + '?loc=' + loc.cameraStartX + ',' + loc.cameraStartZ + ',' + loc.cameraStartY
             + '&pitch=' + loc.cameraStartPitch
@@ -92,27 +83,15 @@ layout: default
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
 
         {% if page.screenshot1 %}
-          {% if page.original %}
-            <a href="{{ page.original }}" target="_blank" rel="noopener">
-          {% endif %}
-            <img src="{{ page.screenshot1 }}"
-                 alt="Screenshot 1"
-                 style="border-radius:8px; border:1px solid #eee; width:100%;">
-          {% if page.original %}
-            </a>
-          {% endif %}
+          <img src="{{ page.screenshot1 }}"
+               alt="Screenshot 1"
+               style="border-radius:8px; border:1px solid #eee; width:100%;">
         {% endif %}
 
         {% if page.screenshot2 != "" and page.screenshot2 != nil %}
-          {% if page.original %}
-            <a href="{{ page.original }}" target="_blank" rel="noopener">
-          {% endif %}
-            <img src="{{ page.screenshot2 }}"
-                 alt="Screenshot 2"
-                 style="border-radius:8px; border:1px solid #eee; width:100%;">
-          {% if page.original %}
-            </a>
-          {% endif %}
+          <img src="{{ page.screenshot2 }}"
+               alt="Screenshot 2"
+               style="border-radius:8px; border:1px solid #eee; width:100%;">
         {% endif %}
 
       </div>
@@ -121,9 +100,22 @@ layout: default
 
 </div>
 
-<h3>📝 Abstract</h3>
-<p>{{ page.Abstract }}</p>
 
+{% assign related = site.articles | where: "locationid", page.locationid %}
+{% if related.size > 0 %}
+<hr>
+<h3>📚 Tenants</h3>
+<ul style="list-style: none; padding: 0; margin: 0;">
+  {% for article in related %}
+  <li style="margin-bottom: 8px;">
+    <a href="{{ site.baseurl }}{{ article.url }}">{{ article.title }}</a>
+    {% if article.type %}<span style="font-size:0.8em; color:#888; margin-left:8px;">{{ article.type }}</span>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if page.tags %}
 <hr>
 <div style="display: flex; flex-wrap: wrap; gap: 8px;">
   {% for tag in page.tags %}
@@ -133,3 +125,4 @@ layout: default
     </a>
   {% endfor %}
 </div>
+{% endif %}

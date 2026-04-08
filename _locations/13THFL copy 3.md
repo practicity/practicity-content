@@ -1,9 +1,9 @@
 ---
 layout: location
-locationid: "CINEMAT"
-name:  "CINEMATRIX Theater"
+locationid: "13THFL"
+name:  "Hanon Fuller's Appartment"
 description: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"        
-tags: ["Simulation"]
+tags: ["Criminal-Justice"]
 ---  
 
 

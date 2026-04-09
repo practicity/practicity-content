@@ -35,6 +35,8 @@ layout: default
     </div>
     {% endif %}
 
+  </div> <!-- ← THIS WAS MISSING -->
+
   <!-- RIGHT COLUMN: Illustrations -->
   <div class="illustrations">
     {% if page.screenshot1 or page.screenshot2 %}
@@ -59,16 +61,17 @@ layout: default
 
 </div>
 
-
 {% assign related = site.articles | where: "locationid", page.locationid %}
 {% if related.size > 0 %}
 <hr>
-<h3>📚 Tenants</h3>
-<ul style="list-style: none; padding: 0; margin: 0;">
-  {% for article in related %}
-  <li style="margin-bottom: 8px;">
-    <a href="{{ site.baseurl }}{{ article.url }}">{{ article.title }}</a>
-    {% if article.type %}<span style="font-size:0.8em; color:#888; margin-left:8px;">{{ article.type }}</span>{% endif %}
+<h3>📚 Tenants <span style="font-weight: normal; color: #888; font-size: 0.85em;">({{ related.size }})</span></h3>
+<ul style="list-style: disc; padding-left: 20px; margin: 0;">
+  {% assign sorted_related = related | sort: "date" %}
+  {% for article in sorted_related %}
+  <li style="margin-bottom: 6px;">
+    <a href="{{ site.baseurl }}{{ article.url }}" style="color: #4a6fa5; text-decoration: none;">{{ article.title }}</a>
+    {% if article.type %}<span style="color: #888; font-size: 0.85em;"> · {{ article.type }}</span>{% endif %}
+    {% if article.date %}<span style="color: #888; font-size: 0.85em;"> · {{ article.date | date: "%b %d, %Y" }}</span>{% endif %}
   </li>
   {% endfor %}
 </ul>

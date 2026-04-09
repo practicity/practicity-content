@@ -2,6 +2,7 @@
 layout: location
 locationid: "WBUSC"
 name:  "WENGER Business Center"
-description: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"        
+description: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+screenshot1: ".././images/wbusc.jpg"        
 tags: ["Business-Administration"]
 ---   

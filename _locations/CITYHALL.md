@@ -2,7 +2,8 @@
 layout: location
 locationid: "CITYHALL"
 name:  "PractiCity City Hall"
-description: "The PractiCity Hall was build by the founders of the city in 2014. The municipality Hall delivers several sercices like Social Services, City Roads and Bridges Infrastructure, Schools and Education council and many more"        
+description: "A multi-service public concourse equipped with automated queue management kiosks and Citizen Relationship Management (CRM) processing terminals. Departmental service bays integrate Electronic Document Management Systems (EDMS) for vital records processing and POS hardware for municipal fee collection. Adjoining planning workstations utilize active Geographic Information Systems (GIS) mapping displays. The facility includes a scalable council chamber featuring a formalized dais, integrated parliamentary voting panels, and live PEG broadcast A/V control consoles."
+screenshot1: ".././images/cityhall.jpg"
 tags: ["Policy"]
 ---   
 

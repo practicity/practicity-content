@@ -30,9 +30,10 @@ layout: default
     </table>
 
     {% if page.locationids %}
+    {% if site.microverse_url contains '?' %}{% assign mv_sep = '&' %}{% else %}{% assign mv_sep = '?' %}{% endif %}
     <div style="margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px;">
       {% for lid in page.locationids %}
-      <a href="{{ site.microverse_url }}?locationid={{ lid }}" target="_blank" rel="noopener"
+      <a href="{{ site.microverse_url }}{{ mv_sep }}locationid={{ lid }}{% if site.microverse_urlparams %}&{{ site.microverse_urlparams | join: "&" }}{% endif %}{% if page.microverse_urlparams %}&{{ page.microverse_urlparams }}{% endif %}" target="microverse-tab"
          style="display:inline-block; padding:8px 14px; background:#333; color:#fff; border-radius:6px; text-decoration:none; font-size:0.9em;">
         🌐 Microverse — {{ lid }}
       </a>

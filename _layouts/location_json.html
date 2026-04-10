@@ -1,0 +1,24 @@
+---
+---
+{% assign related_articles = site.articles | where_exp: "item", "item.locationids contains page.locationid" %}
+{% assign related_solutions = site.solutions | where_exp: "item", "item.locationids contains page.locationid" %}
+{
+  "title": {{ page.title | jsonify }},
+  "url": "{{ site.url }}{{ page.url }}",
+  "name": {{ page.name | jsonify }},
+  "locationid": {{ page.locationid | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "tags": {{ page.tags | jsonify }},
+  "screenshot1": {{ page.screenshot1 | jsonify }},
+  "screenshot2": {{ page.screenshot2 | jsonify }},
+  "articles": [
+    {% for item in related_articles %}
+    { "title": {{ item.title | jsonify }}, "url": "{{ site.url }}{{ item.url }}" }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "solutions": [
+    {% for item in related_solutions %}
+    { "title": {{ item.title | jsonify }}, "url": "{{ site.url }}{{ item.url }}" }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

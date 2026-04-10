@@ -1,0 +1,26 @@
+---
+layout: none
+permalink: /api/solutions.json
+---
+[
+  {% for item in site.solutions %}
+  {
+    "title": {{ item.title | jsonify }},
+    "url": "{{ site.url }}{{ item.url }}",
+    "description": {{ item.description | jsonify }},
+    "type": {{ item.type | jsonify }},
+    "category": {{ item.category | jsonify }},
+    "complexity": {{ item.complexity | jsonify }},
+    "activity": {{ item.activity | jsonify }},
+    "license": {{ item.license | jsonify }},
+    "last_survey": {{ item.last_survey | jsonify }},
+    "locationids": {{ item.locationids | jsonify }},
+    "tags": {{ item.tags | jsonify }},
+    "website": {{ item.website | jsonify }},
+    "github": {{ item.github | jsonify }},
+    "screenshot1": {{ item.screenshot1 | jsonify }},
+    "screenshot2": {{ item.screenshot2 | jsonify }},
+    "screenshot3": {{ item.screenshot3 | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

@@ -1,5 +1,5 @@
 name: Practi.City
-description: the Experiential and HD simulations for situational learning community around the world/
+description: the Experiential and HD simulations for situational learning community around the world
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 collections:
@@ -42,17 +42,24 @@ disqus:
 google_analytics:
 
 # Used for Sitemap.xml and your RSS feed
-url: "practi.city"
+url: "http://127.0.0.1:4000/practicity-content"
 
 # Microverse base URL
-#microverse_url: "https://practicity.github.io/practicity-microverse"
-microverse_url: "http://127.0.0.1:5500"     
+microverse_url: "http://127.0.0.1:5500"
+# because the local CMS needs to address local microverse
+microverse_urlparams: ["env=local"]     
+
+#low level settings for development server
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "practicity-content"
+baseurl: "/practicity-content"
 
 #
 # !! You don't need to change any of the configuration flags below !!

@@ -1,0 +1,30 @@
+---
+layout: none
+permalink: /api/locations.json
+---
+[
+  {% for item in site.locations %}
+  {% assign related_articles = site.articles | where_exp: "a", "a.locationids contains item.locationid" %}
+  {% assign related_solutions = site.solutions | where_exp: "s", "s.locationids contains item.locationid" %}
+  {
+    "title": {{ item.title | jsonify }},
+    "url": "{{ site.url }}{{ item.url }}",
+    "name": {{ item.name | jsonify }},
+    "locationid": {{ item.locationid | jsonify }},
+    "description": {{ item.description | jsonify }},
+    "tags": {{ item.tags | jsonify }},
+    "screenshot1": {{ item.screenshot1 | jsonify }},
+    "screenshot2": {{ item.screenshot2 | jsonify }},
+    "articles": [
+      {% for a in related_articles %}
+      { "title": {{ a.title | jsonify }}, "url": "{{ site.url }}{{ a.url }}" }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ],
+    "solutions": [
+      {% for s in related_solutions %}
+      { "title": {{ s.title | jsonify }}, "url": "{{ site.url }}{{ s.url }}" }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

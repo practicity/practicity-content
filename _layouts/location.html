@@ -25,17 +25,16 @@ layout: default
     </table>
 
     {% if page.locationid %}
+    {% if site.microverse_url contains '?' %}{% assign mv_sep = '&' %}{% else %}{% assign mv_sep = '?' %}{% endif %}
     <div style="margin-top: 16px;">
-    <a id="microverse-link" 
-        href="{{ site.microverse_url }}?locationid={{ page.locationid }}" 
-        target="_blank" rel="noopener"
+    <a id="microverse-link"
+        href="{{ site.microverse_url }}{{ mv_sep }}locationid={{ page.locationid }}&popautoopen=true{% if site.microverse_urlparams %}&{{ site.microverse_urlparams | join: "&" }}{% endif %}{% if page.microverse_urlparams %}&{{ page.microverse_urlparams }}{% endif %}"
+        target="microverse-tab"
         style="display:inline-block; padding:8px 14px; background:#333; color:#fff; border-radius:6px; text-decoration:none; font-size:0.9em;">
         🌐 Navigate in Microverse
     </a>
     </div>
     {% endif %}
-
-  </div> <!-- ← THIS WAS MISSING -->
 
   <!-- RIGHT COLUMN: Illustrations -->
   <div class="illustrations">
@@ -64,7 +63,7 @@ layout: default
 {% assign related = site.articles | where_exp: "item", "item.locationids contains page.locationid" %}
 {% if related.size > 0 %}
 <hr>
-<h3>📚 Tenants <span style="font-weight: normal; color: #888; font-size: 0.85em;">({{ related.size }})</span></h3>
+<h3>📰 Articles <span style="font-weight: normal; color: #888; font-size: 0.85em;">({{ related.size }})</span></h3>
 <ul style="list-style: disc; padding-left: 20px; margin: 0;">
   {% assign sorted_related = related | sort: "date" %}
   {% for article in sorted_related %}
@@ -77,12 +76,13 @@ layout: default
 </ul>
 {% endif %}
 
-{% assign equipements = site.solutions | where_exp: "item", "item.locationids contains page.locationid" %}
-{% if equipements.size > 0 %}
+{% assign solutions = site.solutions | where_exp: "item", "item.locationids contains page.locationid" %}
+{% if solutions.size > 0 %}
 <hr>
-<h3>🛠️ Equipements <span style="font-weight: normal; color: #888; font-size: 0.85em;">({{ equipements.size }})</span></h3>
+
+<h3>🌐 Solutions <span style="font-weight: normal; color: #888; font-size: 0.85em;">({{ solutions.size }})</span></h3>
 <ul style="list-style: disc; padding-left: 20px; margin: 0;">
-  {% for sol in equipements %}
+  {% for sol in solutions %}
   <li style="margin-bottom: 6px;">
     <a href="{{ site.baseurl }}{{ sol.url }}" style="color: #4a6fa5; text-decoration: none;">{{ sol.title }}</a>
     {% if sol.type %}<span style="color: #888; font-size: 0.85em;"> · {{ sol.type }}</span>{% endif %}

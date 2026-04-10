@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:practicity.github.io)",
-      "Bash(sed:*)"
+      "Bash(sed:*)",
+      "Bash(python3:*)",
+      "Bash(grep -h \"^image:\" \"/c/Users/alexa/OneDrive - RAMPART.CLOUD/Documents/DEVELOPMENT PROJECTS/practicity-content/_locations\"/*.md)",
+      "Bash(grep -h \"locationids\\\\|locationsids\\\\|locationdis\" *.md)",
+      "Bash(grep -hE \"locationids|locationsids|locationdis\" *.md)",
+      "Bash(mkdir:*)"
     ]
   }
 }

@@ -6,7 +6,7 @@ type: "Simulation Software"
 category: "Marine Simulation"
 complexity: "★★★☆☆"
 activity: "★★★☆☆"
-tags: ["Active-Learning", "Corporate-Training", "Experiential-Learning", "Simulator", "Teamwork", "Maritime", "Game-Based"]
+tags: ["Active-Learning", "Experiential-Learning", "Simulator", "Teamwork", "Maritime", "Game-Based"]
 website: "https://www.bridgecommand.co.uk/"
 github: "https://github.com/bridgecommand/bc"
 license: "GPL 2.0"

@@ -66,7 +66,7 @@ permalink: /articles/
         <div class="item-image">
           {% if item.screenshot1 %}
             <a href="{{ item.url | relative_url }}">
-              <img src="{{ item.screenshot1 }}" alt="{{ item.title }}">
+              <img src="{{ item.screenshot1 | relative_url }}" alt="{{ item.title }}">
             </a>
           {% endif %}
         </div>

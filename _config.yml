@@ -23,7 +23,7 @@ footer-links:
   email: hello@practi.city
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: organizations/practicity/
   instagram:
   linkedin:
   pinterest:
@@ -42,7 +42,7 @@ disqus:
 google_analytics:
 
 # Used for Sitemap.xml and your RSS feed
-url: "practicity.github.io"
+url: "practi.city"
 
 # Microverse base URL
 microverse_url: "https://practicity.github.io/practicity-microverse"

@@ -15,5 +15,5 @@ screenshot2: "https://myopenlab.org/wp-content/uploads/2017/07/VariablesExample.
 screenshot3: "https://myopenlab.org/wp-content/uploads/2017/07/VariablesExample-Logic.png"
 tags: ["Active-Learning", "Experiential-Learning", "IoT", "Physics", "Simulator", "Java"]
 
-locationsids: ["PIAGET", "ENDER"]
+locationids: ["PIAGET", "ENDER"]
 ---

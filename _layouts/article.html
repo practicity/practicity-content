@@ -65,7 +65,7 @@ layout: default
           {% if page.original %}
             <a href="{{ page.original }}" target="_blank" rel="noopener">
           {% endif %}
-            <img src="{{ page.screenshot1 }}"
+            <img src="{{ page.screenshot1 | relative_url }}"
                  alt="Screenshot 1"
                  style="border-radius:8px; border:1px solid #eee; width:100%;">
           {% if page.original %}
@@ -77,7 +77,7 @@ layout: default
           {% if page.original %}
             <a href="{{ page.original }}" target="_blank" rel="noopener">
           {% endif %}
-            <img src="{{ page.screenshot2 }}"
+            <img src="{{ page.screenshot2 | relative_url }}"
                  alt="Screenshot 2"
                  style="border-radius:8px; border:1px solid #eee; width:100%;">
           {% if page.original %}

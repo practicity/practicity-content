@@ -5,7 +5,7 @@ description: "QuantReplay is a tool for backtesting and simulating trading strat
 type: "Simulation Software"
 category: "Finance / Trading"
 complexity: "★★★★☆"
-activity: "★★☆☆☆"
+activity: "★★☆☆☆"  
 website: "https://github.com/Quod-Financial/quantreplay"
 github: "https://github.com/Quod-Financial/quantreplay"
 license: "Apache 2.0"
@@ -14,5 +14,5 @@ screenshot1: "https://github.com/Quod-Financial/quantreplay/raw/main/images/imag
 screenshot2: "https://github.com/Quod-Financial/quantreplay/raw/main/images/image02_dark.png"
 screenshot3: ""
 tags: ["AI", "Data-Analytics", "Decision-Making", "Economics", "Simulator", "Python"]
-locationsids: ["SIMFIN"]
+locationids: ["FINSIM"]
 ---

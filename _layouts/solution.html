@@ -46,13 +46,13 @@ layout: default
       <h3 style="margin-top: 0;">🖼️ Illustrations</h3>
       <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
         {% if page.screenshot1 %}
-          <img src="{{ page.screenshot1 }}" style="border-radius:8px; border:1px solid #eee; width:100%;">
+          <img src="{{ page.screenshot1 | relative_url }}" style="border-radius:8px; border:1px solid #eee; width:100%;">
         {% endif %}
         {% if page.screenshot2 %}
-          <img src="{{ page.screenshot2 }}" style="border-radius:8px; border:1px solid #eee; width:100%;">
+          <img src="{{ page.screenshot2 | relative_url }}" style="border-radius:8px; border:1px solid #eee; width:100%;">
         {% endif %}
         {% if page.screenshot3 %}
-          <img src="{{ page.screenshot3 }}" style="border-radius:8px; border:1px solid #eee; width:100%;">
+          <img src="{{ page.screenshot3 | relative_url }}" style="border-radius:8px; border:1px solid #eee; width:100%;">
         {% endif %}
       </div>
     {% endif %}
